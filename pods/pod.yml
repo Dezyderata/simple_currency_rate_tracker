@@ -15,4 +15,4 @@ spec: # pod spec (can have nodeName(integer))
     - name: web-test #string
       image: everlyn/simple_django_app:test # string
       ports: # container port array
-        -containerPort: 8080
+        -containerPort: 8000
