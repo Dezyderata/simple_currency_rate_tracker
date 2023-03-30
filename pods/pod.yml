@@ -13,6 +13,6 @@ metadata: # object meta (can have annotations (object))
 spec: # pod spec (can have nodeName(integer))
   containers: # container array
     - name: web-test #string
-      image: arydz/myFutureImage:1.0 # string
+      image: everlyn/simple_django_app:test # string
       ports: # container port array
         -containerPort: 8080
