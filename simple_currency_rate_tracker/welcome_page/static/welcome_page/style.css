@@ -1,0 +1,16 @@
+head {
+    font-family: sens-serif;
+    color: black;
+    background-color: rgba(211, 211, 211, 0.5);
+}
+body {
+    font-family: sens-serif;
+    color: black;
+    background-color: rgba(40, 200, 200, 0.5);
+}
+
+footer {
+    font-family: sens-serif;
+    color: black;
+    background-color: rgba(211, 211, 211, 0.5);
+}

@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block title %}Welcome{% endblock %}
+{% block content %}
+    <h1>Welcome currency rate tracker</h1>
+    <p>
+        This is a banks page test
+    </p>
+    <a href="{% url 'currency_rate' %}">Currency rate</a>
+    <a href="{% url 'welcome' %}">Welcome page</a>
+{% endblock %}
+{% block footer %}FAQ{% endblock %}

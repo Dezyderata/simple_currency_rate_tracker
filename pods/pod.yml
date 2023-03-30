@@ -1,0 +1,18 @@
+# Simple Kubernetes Pod to deploy the app
+# check on Pod object definition for details
+
+
+#pod part
+apiVersion: v1 # version of apps or core (from k8s api)
+kind: Pod # core (from k8s api)
+metadata: # object meta (can have annotations (object))
+  name: main-pod # string
+  labels: # object
+    app: web # string
+#container part
+spec: # pod spec (can have nodeName(integer))
+  containers: # container array
+    - name: web-test #string
+      image: arydz/myFutureImage:1.0 # string
+      ports: # container port array
+        -containerPort: 8080
